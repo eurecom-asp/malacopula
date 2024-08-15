@@ -167,21 +167,43 @@ class Malacopula(nn.Module):
 
 ## Third-party Troubleshooting
 
-Here are some common issues you might encounter while using this repository.
+Below are some common issues you might encounter when using this repository, along with their solutions.
 
-#### 1. Issue 
-`SpeechBrain.inference` not found
+#### 1. Issue: `SpeechBrain.inference` not found
 
-**Solution**:
-add this line to `-> tuple[list, list]`
+**Cause**: The `inference` module is not being properly imported in the `SpeechBrain` package.
 
-#### 2. Issue
-`/envs/malac/lib/python3.8/site-packages/speechbrain/inference/ASR.py", line 790, in StreamingASR
-) -> tuple[list, list]:
-TypeError: 'type' object is not subscriptable`
+**Solution**: 
+To resolve this issue, add the following line to the `__init__.py` file of the `SpeechBrain` package:
+
+1. Open the file located at `envs/malac/lib/python3.8/site-packages/speechbrain/__init__.py`.
+2. Add this line of code:
+
+   ```python
+   from . import inference  # noqa
+
+#### 2. Issue: TypeError: 'type' object is not subscriptable in StreamingASR
+
+**Cause**: The code in ASR.py is using Python 3.9+ type hinting syntax that is not compatible with earlier Python versions, such as Python 3.8.
 
 **Solution**:
 delete `-> tuple[list, list]` at line 790 of `ASR.py`.
+
+### 2. Issue: `TypeError: 'type' object is not subscriptable` in `StreamingASR`
+
+**Cause**: The code in `ASR.py` is using Python 3.9+ type hinting syntax that is not compatible with earlier Python versions, such as Python 3.8.
+
+**Solution**: 
+To fix this error, remove the type hint that causes the issue:
+
+1. Open the file located at `/envs/malac/lib/python3.8/site-packages/speechbrain/inference/ASR.py`.
+2. Locate line 790, which contains the following code:
+
+   ```python
+   ) -> tuple[list, list]:
+3. Modify it by deleting the type hint:
+   ```python
+   ):
 
 
 ## How to Cite This Work
