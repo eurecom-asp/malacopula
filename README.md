@@ -164,4 +164,24 @@ class Malacopula(nn.Module):
 
         return norm_output
 
+## References
+
+For the speaker verification systems and models mentioned in this repository, please refer to the following sources:
+
+1. **ECAPA-TDNN**: Emphasized Channel Attention, Propagation, and Aggregation in TDNN-based Speaker Verification
+   - Desplanques, B., Thienpondt, J., & Demuynck, K. (2020). In *INTERSPEECH 2020*, pages 3830-3834. [DOI:10.21437/Interspeech.2020-2650](https://doi.org/10.21437/Interspeech.2020-2650)
+   - Code available at: [SpeechBrain - ECAPA-TDNN](https://github.com/speechbrain/speechbrain)
+
+2. **CAM++**: A Fast and Efficient Network for Speaker Verification Using Context-Aware Masking
+   - Wang, H., Zheng, S., Chen, Y., Cheng, L., & Chen, Q. (2023). In *INTERSPEECH 2023*. [URL: https://api.semanticscholar.org/CorpusID:257255185](https://api.semanticscholar.org/CorpusID:257255185)
+   - Code available at: [ModelScope - 3D Speaker](https://github.com/modelscope/3D-Speaker)
+
+3. **ERes2NetV2**: Boosting Short-Duration Speaker Verification Performance with Computational Efficiency
+   - Chen, Y., & others. (2024). *arXiv preprint arXiv:2406.02167*. [DOI:10.48550/arXiv.2406.02167](https://doi.org/10.48550/arXiv.2406.02167)
+   - Code available at: [ModelScope - 3D Speaker](https://github.com/modelscope/3D-Speaker)
+
+4. **Malacopula**: Adversarial Automatic Speaker Verification Attacks Using a Neural-Based Generalised Hammerstein Model
+   - Todisco, M., Panariello, M., Wang, X., Delgado, H., Lee, K.-A., & Evans, N. (2024). In *Proc. ASVspoof5 workshop*.
+
+These references provide additional context for the models and methods used in this repository.
 
