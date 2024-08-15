@@ -70,7 +70,7 @@ AUDIO_FOLDER_MALAC=${OUTPUT_BASE_PATH}Malacopula_${NUM_LAYERS}_${KERNEL_SIZE}/ #
 SCORE_FILE=${OUTPUT_BASE_PATH}ASV2019_eval_scores_${NUM_LAYERS}_${KERNEL_SIZE}.txt # The file for scores with header: "spkID", "fileID", "attack", "label", "score ECAPA", "score CAM++", "score ERes2Net", "score AASIST".
 RESULTS_FILE=${OUTPUT_BASE_PATH}ASV2019_eval_summary_${NUM_LAYERS}_${KERNEL_SIZE}.txt # The file summarizing the results in terms of EER.
 
-## How to Use
+### How to Use
 
 ### Training Malacopula Filter
 Use the `Train.py` script to train the Malacopula filter for a specific attack and speaker ID. The `conf.ini` file is automatically parsed by the script.
