@@ -84,3 +84,18 @@ Once the symbolic links have been created, use the `Eval.py` script to evaluate 
 ```bash
 python Eval.py
 ```
+
+## Important Parameters in `conf.ini`
+
+- **TARGET_CATEGORY**: Specifies the attack type, e.g., `A17`. Leave it empty to process all attacks.
+- **TARGET_SPEAKER**: Specifies the speaker ID, e.g., `LA_0001`. Leave it empty to process all speakers.
+- **OUTPUT_BASE_PATH**: Path where the best model, processed speech, and filter coefficients will be saved.
+- **f_A**: The embedding extractor used for training (e.g., `ecapa` or `campp`). `f_B` will be automatically set to the other extractor.
+
+## Evaluation-Specific Parameters
+
+- **AUDIO_FOLDER_MALAC**: The folder where Malacopula-processed utterances are saved.
+- **SCORE_FILE**: File containing the scores for evaluation, including speaker ID, attack type, and scores from multiple systems (ECAPA, CAM++, ERes2Net, AASIST).
+- **RESULTS_FILE**: File summarizing the evaluation results in terms of Equal Error Rate (EER).
+
+Both `Train.py` and `Eval.py` will automatically read the `conf.ini` file, so make sure to update the configuration as needed before running the scripts.
