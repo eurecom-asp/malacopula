@@ -39,6 +39,38 @@ Ensure you have Conda installed. If not, you can download and install it from [h
    conda activate malac
 This will set up the environment with all necessary dependencies, including CUDA, PyTorch, and other required libraries.
 
+## Malacopula Filter Training and Evaluation
+
+This repository allows you to train the Malacopula filter for a specific attack and speaker ID using `Train.py` and evaluate the Malacopula filter using `Eval.py`. Both scripts automatically parse the `conf.ini` file, which contains all the necessary parameters for training and evaluation.
+
+### Configuration (`conf.ini`)
+
+The `conf.ini` file contains parameters for both training and evaluation. Here is a breakdown of the key parameters:
+
+```ini
+[DEFAULT]
+TARGET_SAMPLE_RATE=16000        # The target sample rate for audio processing, in Hz.
+LEARNING_RATE=0.01              # The learning rate for the training algorithm.
+NUM_EPOCHS=60                   # The number of epochs to train the model.
+BATCH_SIZE=12                   # The number of samples in each batch during training.
+VALIDATION_STEP=2               # The number of steps between validations during training.
+NUM_LAYERS=3                    # The number of parallel branches in the Malacopula model [K].
+KERNEL_SIZE=257                 # The length of the filter in the Malacopula model [L].
+SPEAKERS_PER_GPU=5              # Number of speakers processed concurrently per GPU (optimizes speed but depends on available GPU memory).
+AUDIO_FOLDER=path/to/ASVspoof2019/LA/ASVspoof2019_LA_eval/flac/  # Path to the ASVspoof2019_LA_eval audio files.
+OUTPUT_BASE_PATH=path/to/output/folder/  # Base path to save the best model, Malacopula processed speech, TensorBoard files, and Malacopula filter coefficients during training.
+PROTOCOL_A=path/to/protocols/ASVspoof2019.LA.asv.eval.gi.trn.txt  # Path to enrollment speech protocol.
+PROTOCOL_B=path/to/protocols/ASVspoof2019.LA.asv.eval.gi.trl.v1.txt  # Path to trial speech protocol.
+TARGET_CATEGORY=A17             # The target attack, e.g., A17 (leave it empty to process all the attacks).
+TARGET_SPEAKER=LA_0001          # The target speaker ID, e.g., LA_0001 (leave it empty to process all the speakers).
+f_A=campp                       # The type of embedding extractor being used for training (e.g., 'ecapa' or 'campp'). Once f_A is chosen, f_B is the other.
+
+# Only for Eval.py
+AUDIO_FOLDER_MALAC=${OUTPUT_BASE_PATH}Malacopula_${NUM_LAYERS}_${KERNEL_SIZE}/ # The folder where Malacopula processed utterances are saved.
+SCORE_FILE=${OUTPUT_BASE_PATH}ASV2019_eval_scores_${NUM_LAYERS}_${KERNEL_SIZE}.txt # The file for scores with header: "spkID", "fileID", "attack", "label", "score ECAPA", "score CAM++", "score ERes2Net", "score AASIST".
+RESULTS_FILE=${OUTPUT_BASE_PATH}ASV2019_eval_summary_${NUM_LAYERS}_${KERNEL_SIZE}.txt # The file summarizing the results in terms of EER.
+
+
 
 
 
