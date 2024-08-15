@@ -165,6 +165,18 @@ class Malacopula(nn.Module):
         return norm_output
 ```
 
+## How to Cite This Work
+
+If you use this repository or the Malacopula model in your research, please cite the following paper:
+
+```bibtex
+@inproceedings{todisco2024,
+    author={Massimiliano Todisco and Michele Panariello and Xin Wang and Hector Delgado and Kong-Aik Lee and Nicholas Evans},
+    title={Malacopula: Adversarial Automatic Speaker Verification Attacks Using a Neural-Based Generalised Hammerstein Model},
+    booktitle={Proc. ASVspoof5 workshop},
+    year={2024}
+}
+
 ## References
 
 For the speaker verification systems and models mentioned in this repository, please refer to the following sources:
