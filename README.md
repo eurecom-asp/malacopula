@@ -78,9 +78,11 @@ Use the `Train.py` script to train the Malacopula filter for a specific attack a
 
 ```bash
 python Train.py
+```
 
 ### Evaluating Malacopula Filter
 After training, use the Eval.py script to evaluate the performance of the Malacopula filter. The conf.ini file is also parsed automatically by the evaluation script.
 
 ```bash
 python Eval.py
+```
