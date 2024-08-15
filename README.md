@@ -110,3 +110,58 @@ Both `Train.py` and `Eval.py` will automatically read the `conf.ini` file, so ma
 
 In order to run `symbolic_malac_folder.py` and `Eval.py`, ensure that you have processed **all the attacks and speakers**. This is necessary for accurate evaluation and proper creation of symbolic links for the trials.
 
+## Malacopula Implementation
+
+If you're here for the **Malacopula** implementation, you can find the PyTorch class inside `models.py`. Below is a brief overview of the class structure:
+
+```python
+import torch
+import torch.nn as nn
+import numpy as np
+
+class Malacopula(nn.Module):
+    def __init__(self, num_layers=5, in_channels=1, out_channels=1, kernel_size=1025, padding='same', bias=False):
+        super().__init__()
+        self.kernel_size = kernel_size
+        self.convs = nn.ModuleList([
+            nn.utils.parametrizations.weight_norm(
+                nn.Conv1d(in_channels, out_channels, kernel_size, padding=padding, bias=bias)
+            )
+            for _ in range(num_layers)
+        ])
+        self.bartlett_window = self.create_bartlett_window()
+        self.apply_bartlett_window()
+
+    def create_bartlett_window(self):
+        bartlett_window = torch.bartlett_window(self.kernel_size)
+        return bartlett_window.unsqueeze(0).unsqueeze(0)
+
+    def apply_bartlett_window(self):
+        for conv in self.convs:
+            with torch.no_grad():
+                bartlett_window = self.bartlett_window.to(conv.weight.device)
+                conv.weight *= bartlett_window
+
+    def save_filter_coefficients(self, directory_path):
+        for i, conv in enumerate(self.convs, start=1):
+            bartlett_window = self.bartlett_window.to(conv.weight.device)
+            filter_weights = (conv.weight.data * bartlett_window).cpu().numpy()
+            filter_weights = np.squeeze(filter_weights)
+
+            filepath = f"{directory_path}/filter_{i}.txt"
+            np.savetxt(filepath, filter_weights, fmt='%.6f', delimiter=' ')
+
+    def forward(self, x):
+        outputs = []
+        for i, conv in enumerate(self.convs, start=1):
+            powered_x = torch.pow(x, i)
+            output = conv(powered_x)
+            outputs.append(output)
+
+        summed_output = torch.sum(torch.stack(outputs, dim=0), dim=0)
+        max_abs_value = torch.max(torch.abs(summed_output))
+        norm_output = summed_output / max_abs_value
+
+        return norm_output
+
+
