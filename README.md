@@ -2,13 +2,13 @@
 
 ## Description
 
-Malacopula is a neural-based Generalised Hammerstein model designed to enhance the effectiveness of spoofing attacks on Automatic Speaker Verification (ASV) systems. By introducing adversarial perturbations to spoofed speech utterances, Malacopula increases the vulnerability of ASV systems. This repository contains the implementation of the model, including the filter architecture and adversarial optimisation procedures.
+Malacopula is a neural-based generalised Hammerstein model designed to enhance the effectiveness of spoofing attacks on Automatic Speaker Verification (ASV) systems. By introducing adversarial perturbations to spoofed speech utterances, Malacopula increases the vulnerability of ASV systems. This repository contains the implementation of the model, including the filter architecture and adversarial optimisation procedures.
 
 ## Features
-- **Neural-based Generalised Hammerstein Model**: Non-linear transformations applied to speech signals for adversarial perturbations.
+- **Neural-based Generalised Hammerstein Model**: Non-linear learnable transformations applied to speech signals for adversarial perturbations.
 - **Adversarial Optimisation**: Procedure for minimising cosine distance between spoofed and bona fide utterances.
 - **Cross-System Evaluation**: Tested across multiple ASV architectures (CAM++, ECAPA, ERes2Net).
-- **Impact Evaluation**: Includes assessments of spoofing and deepfake detection (AASIST) and Mean Opinion Score (MOS) for speech quality.
+- **Impact Evaluation**: Includes assessments of spoofing and deepfake detection (AASIST).
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -34,4 +34,13 @@ Ensure you have Conda installed. If not, you can download and install it from [h
 2. Create the Conda environment using the provided `environment.yml` file:
    ```bash
    conda env create -f environment.yml
+3. Activate the newly created environment:
+   ```bash
+   conda activate malac
+This will set up the environment with all necessary dependencies, including CUDA, PyTorch, and other required libraries.
+
+
+
+
+
    
