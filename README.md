@@ -99,3 +99,8 @@ python Eval.py
 - **RESULTS_FILE**: File summarizing the evaluation results in terms of Equal Error Rate (EER).
 
 Both `Train.py` and `Eval.py` will automatically read the `conf.ini` file, so make sure to update the configuration as needed before running the scripts.
+
+### Important
+
+In order to run `symbolic_malac_folder.py` and `Eval.py`, ensure that you have processed **all the attacks and speakers**. This is necessary for accurate evaluation and proper creation of symbolic links for the trials.
+
