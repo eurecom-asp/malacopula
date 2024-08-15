@@ -10,16 +10,6 @@ Malacopula is a neural-based generalised Hammerstein model designed to enhance t
 - **Cross-System Evaluation**: Tested across multiple ASV architectures (CAM++, ECAPA, ERes2Net).
 - **Impact Evaluation**: Includes assessments of spoofing and deepfake detection (AASIST).
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Experimentation and Results](#experimentation-and-results)
-- [License](#license)
-- [Citation](#citation)
-- [Contact Information](#contact-information)
-- [Contributing](#contributing)
-
 ## Installation
 To set up the environment, you will need to install the dependencies listed in the `environment.yml` file using Conda. Follow the instructions below:
 
@@ -86,10 +76,10 @@ After training, run the 'symbolic_malac_folder.py' script to create symbolic lin
 ```bash
 python symbolic_malac_folder.py
 ```
-This script creates symbolic links for both target and non-target files, as well as Malacopula-processed spoof files, using the paths defined in the conf.ini file. It uses the PROTOCOL_B file to extract unique file names and labels.
+This script creates symbolic links for both bona fide target and non-target files, as well as Malacopula-processed spoof files, using the paths defined in the conf.ini file. It uses the trial protocol file to extract unique file names and labels.
 
 ### Evaluating Malacopula Filter
-Once the symbolic links have been created, use the Eval.py script to evaluate the performance of the Malacopula filter. The conf.ini file is also parsed automatically by the evaluation script.
+Once the symbolic links have been created, use the `Eval.py` script to evaluate the performance of the Malacopula filter. The `conf.ini` file is also parsed automatically by the evaluation script.
 
 ```bash
 python Eval.py
