@@ -176,6 +176,7 @@ If you use this repository or the Malacopula model in your research, please cite
     booktitle={Proc. ASVspoof5 workshop},
     year={2024}
 }
+```
 
 ## References
 
