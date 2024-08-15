@@ -102,7 +102,7 @@ python Eval.py
 
 - **AUDIO_FOLDER_MALAC**: The folder where Malacopula-processed utterances are saved.
 - **SCORE_FILE**: File containing the scores for evaluation, including speaker ID, attack type, and scores from multiple systems (ECAPA, CAM++, ERes2Net, AASIST).
-- **RESULTS_FILE**: File summarizing the evaluation results in terms of Equal Error Rate (EER).
+- **RESULTS_FILE**: File summarizing the evaluation results in terms of SAVS Equal Error Rate (EER).
 
 Both `Train.py` and `Eval.py` will automatically read the `conf.ini` file, so make sure to update the configuration as needed before running the scripts.
 
