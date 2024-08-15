@@ -169,19 +169,19 @@ class Malacopula(nn.Module):
 
 Here are some common issues you might encounter while using this repository.
 
-#### 1. Issue in`/lib/python3.8/site-packages/speechbrain/inference/ASR.py", line 790, in StreamingASR
+#### 1. Issue 
+`SpeechBrain.inference` not found
+
+**Solution**:
+add this line to `-> tuple[list, list]`
+
+#### 2. Issue
+`/lib/python3.8/site-packages/speechbrain/inference/ASR.py", line 790, in StreamingASR
 ) -> tuple[list, list]:
 TypeError: 'type' object is not subscriptable`
 
 **Solution**:
-delete `-> tuple[list, list]`
-
-#### 1. Issue in`/lib/python3.8/site-packages/speechbrain/inference/ASR.py", line 790, in StreamingASR
-) -> tuple[list, list]:
-TypeError: 'type' object is not subscriptable`
-
-**Solution**:
-delete `-> tuple[list, list]`
+delete `-> tuple[list, list]` at line 790 of `ASR.py`.
 
 
 ## How to Cite This Work
