@@ -184,7 +184,7 @@ For the speaker verification systems and models mentioned in this repository, pl
 
 1. **Malacopula**: Adversarial Automatic Speaker Verification Attacks Using a Neural-Based Generalised Hammerstein Model
    - Todisco, M., Panariello, M., Wang, X., Delgado, H., Lee, K.-A., & Evans, N. (2024). In *Proc. ASVspoof5 workshop*.
-   - <a name="ref-malacopula"></a>
+     <a name="ref-malacopula"></a>
 
 2. **CAM++**: A Fast and Efficient Network for Speaker Verification Using Context-Aware Masking
    - Wang, H., Zheng, S., Chen, Y., Cheng, L., & Chen, Q. (2023). In *INTERSPEECH 2023*. [URL: https://api.semanticscholar.org/CorpusID:257255185](https://api.semanticscholar.org/CorpusID:257255185)
