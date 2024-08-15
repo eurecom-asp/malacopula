@@ -80,8 +80,16 @@ Use the `Train.py` script to train the Malacopula filter for a specific attack a
 python Train.py
 ```
 
+### Creating Symbolic Links
+After training, run the 'symbolic_malac_folder.py' script to create symbolic links in the specified folder for the trials, which include Malacopula-processed spoof utterances.
+
+```bash
+python symbolic_malac_folder.py
+```
+This script creates symbolic links for both target and non-target files, as well as Malacopula-processed spoof files, using the paths defined in the conf.ini file. It uses the PROTOCOL_B file to extract unique file names and labels.
+
 ### Evaluating Malacopula Filter
-After training, use the Eval.py script to evaluate the performance of the Malacopula filter. The conf.ini file is also parsed automatically by the evaluation script.
+Once the symbolic links have been created, use the Eval.py script to evaluate the performance of the Malacopula filter. The conf.ini file is also parsed automatically by the evaluation script.
 
 ```bash
 python Eval.py
