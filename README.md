@@ -31,3 +31,6 @@ Ensure you have Conda installed. If not, you can download and install it from [h
    ```bash
    git clone https://github.com/eurecom-asp/malacopula
    cd malacopula
+2. Create the Conda environment using the provided environment.yml file:
+   ```bash
+   conda env create -f environment.yml
