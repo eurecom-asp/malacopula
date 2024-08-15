@@ -1,4 +1,4 @@
-# Malacopula: Adversarial Automatic Speaker Verification Attacks Using a Neural-Based Generalised Hammerstein Model
+# Malacopula: adversarial automatic speaker verification attacks using a neural-Based generalised Hammerstein model
 
 ## Description
 
