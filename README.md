@@ -29,6 +29,12 @@ Ensure you have Conda installed. If not, you can download and install it from [h
    conda activate malac
 This will set up the environment with all necessary dependencies, including CUDA, PyTorch, and other required libraries.
 
+## Dataset
+
+The dataset used is ASVspoof2019, which can be found [here](https://datashare.ed.ac.uk/handle/10283/3336). You should download the dataset and place it into a folder of your choice. Afterward, update the configuration file (`conf.ini`) to reflect the correct path.
+
+In the `AUDIO_FOLDER` key (see `conf.ini`), assign the path to the folder containing the evaluation `.flac` files.
+
 ## Malacopula Filter Training and Evaluation
 
 This repository allows you to train the Malacopula filter for a specific attack and speaker ID using `Train.py` and evaluate the Malacopula filter using `Eval.py`. Both scripts automatically parse the `conf.ini` file, which contains all the necessary parameters for training and evaluation.
