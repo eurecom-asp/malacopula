@@ -197,5 +197,9 @@ For the speaker verification systems and models mentioned in this repository, pl
    - Chen, Y., & others. (2024). *arXiv preprint arXiv:2406.02167*. [DOI:10.48550/arXiv.2406.02167](https://doi.org/10.48550/arXiv.2406.02167)
    - Code available at: [ModelScope - 3D Speaker](https://github.com/modelscope/3D-Speaker)
 
+5. **AASIST**: Audio Anti-Spoofing Using Integrated Spectro-Temporal Graph Attention Networks
+   - Jung, J.-w., Heo, H.-S., Tak, H., Shim, H.-j., Chung, J.S., Lee, B.-J., & Yu, H.-J., Evans, N. (2022). In *Proc. ICASSP 2022*, pages 6367-6371.
+   - Code available at: [AASIST GitHub Repository](https://github.com/clovaai/aasist)
+
 These references provide additional context for the models and methods used in this repository.
 
