@@ -167,7 +167,7 @@ class Malacopula(nn.Module):
 
 ## Third-party Troubleshooting
 
-Below are some common issues you might encounter when using this repository, along with their solutions.
+Below are some common issues you might encounter when using this repository.
 
 #### 1. Issue: `SpeechBrain.inference` not found
 
