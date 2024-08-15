@@ -176,7 +176,7 @@ Here are some common issues you might encounter while using this repository.
 add this line to `-> tuple[list, list]`
 
 #### 2. Issue
-`/lib/python3.8/site-packages/speechbrain/inference/ASR.py", line 790, in StreamingASR
+`/envs/malac/lib/python3.8/site-packages/speechbrain/inference/ASR.py", line 790, in StreamingASR
 ) -> tuple[list, list]:
 TypeError: 'type' object is not subscriptable`
 
