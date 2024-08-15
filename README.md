@@ -163,6 +163,7 @@ class Malacopula(nn.Module):
         norm_output = summed_output / max_abs_value
 
         return norm_output
+```
 
 ## References
 
