@@ -218,7 +218,7 @@ If you use this repository or the Malacopula model in your research, please cite
 For the speaker verification systems and models mentioned in this repository, please refer to the following sources:
 
 1. **Malacopula**: Adversarial Automatic Speaker Verification Attacks Using a Neural-Based Generalised Hammerstein Model
-   - Todisco, M., Panariello, M., Wang, X., Delgado, H., Lee, K.-A., & Evans, N. (2024). In *Proc. ASVspoof5 workshop*.
+   - Todisco, M., Panariello, M., Wang, X., Delgado, H., Lee, K.-A., & Evans, N. (2024). In *Proc. ASVspoof5 Workshop 2024*.
    - https://arxiv.org/
      <a name="ref-malacopula"></a>
 
