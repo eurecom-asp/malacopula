@@ -190,19 +190,19 @@ For the speaker verification systems and models mentioned in this repository, pl
 2. **CAM++**: A Fast and Efficient Network for Speaker Verification Using Context-Aware Masking
    - Wang, H., Zheng, S., Chen, Y., Cheng, L., & Chen, Q. (2023). In *INTERSPEECH 2023*.
    - https://arxiv.org/pdf/2303.00332
-   - [GitHub Repository](https://github.com/clovaai/aasist)
+   - [GitHub Repository](https://github.com/modelscope/3D-Speaker/tree/main?tab=readme-ov-file) 
      <a name="ref-campp"></a>
 
 3. **ECAPA-TDNN**: Emphasized Channel Attention, Propagation, and Aggregation in TDNN-based Speaker Verification
    - Desplanques, B., Thienpondt, J., & Demuynck, K. (2020). In *INTERSPEECH 2020*, pages 3830-3834.
    - https://arxiv.org/pdf/2005.07143
-   - [GitHub Repository](https://github.com/clovaai/aasist)
+   - [GitHub Repository](https://github.com/speechbrain/speechbrain)
      <a name="ref-ecapa"></a>
 
 4. **ERes2NetV2**: Boosting Short-Duration Speaker Verification Performance with Computational Efficiency
    - Chen, Y., & others. (2024). *arXiv preprint arXiv:2406.02167*.
    - https://arxiv.org/pdf/2406.02167
-   - [GitHub Repository](https://github.com/clovaai/aasist)
+   - [GitHub Repository](https://github.com/modelscope/3D-Speaker/tree/main?tab=readme-ov-file)
      <a name="ref-eres2net"></a>
 
 5. **AASIST**: Audio Anti-Spoofing Using Integrated Spectro-Temporal Graph Attention Networks
