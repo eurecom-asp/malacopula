@@ -21,10 +21,13 @@ Malacopula is a neural-based Generalised Hammerstein model designed to enhance t
 - [Contributing](#contributing)
 
 ## Installation
+To set up the environment, you will need to install the dependencies listed in the `environment.yml` file using Conda. Follow the instructions below:
 
-Clone the repository and install the dependencies:
+### Prerequisites
+Ensure you have Conda installed. If not, you can download and install it from [here](https://docs.conda.io/en/latest/miniconda.html).
 
-```bash
-git clone https://github.com/eurecom-asp/malacopula
-cd malacopula
-pip install -r requirements.txt
+### Steps to Install
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/eurecom-asp/malacopula
+   cd malacopula
