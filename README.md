@@ -181,15 +181,9 @@ To resolve this issue, add the following line to the `__init__.py` file of the `
 
    ```python
    from . import inference  # noqa
+   ```
 
-#### 2. Issue: TypeError: 'type' object is not subscriptable in StreamingASR
-
-**Cause**: The code in ASR.py is using Python 3.9+ type hinting syntax that is not compatible with earlier Python versions, such as Python 3.8.
-
-**Solution**:
-delete `-> tuple[list, list]` at line 790 of `ASR.py`.
-
-### 2. Issue: `TypeError: 'type' object is not subscriptable` in `StreamingASR`
+#### 2. Issue: `TypeError: 'type' object is not subscriptable` in `StreamingASR`
 
 **Cause**: The code in `ASR.py` is using Python 3.9+ type hinting syntax that is not compatible with earlier Python versions, such as Python 3.8.
 
@@ -204,7 +198,7 @@ To fix this error, remove the type hint that causes the issue:
 3. Modify it by deleting the type hint:
    ```python
    ):
-
+   ```
 
 ## How to Cite This Work
 
