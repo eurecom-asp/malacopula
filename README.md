@@ -223,7 +223,7 @@ This table presents a speech utterance from the bona fide enrollment of speaker 
 
 | BF                | L07                                                                                          |
 |-------------------|---------------------------------------------------------------------------------------------------|
-|                   | <audio controls> <source src="audio/L0007_bona_fide.wav" type="audio/flac"> Your browser does not support the audio element. </audio> |
+|                   | <audio controls> <source src="audio/L0007_bona_fide.wav" type="audio/wav"> Your browser does not support the audio element. </audio> |
 
 | SP                | A09                                                                                               | A13                                                                                               | A17                                                                                               |
 |-------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
