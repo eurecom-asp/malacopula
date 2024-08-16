@@ -247,7 +247,7 @@ For the speaker verification systems and models mentioned in this repository, pl
      <a name="ref-aasist"></a>
 
 6. **SASV 2022**: The First Spoofing-Aware Speaker Verification Challenge
-   - Jung, J.-w., Tak, H., Shim, H.-j., Heo, H.-S., Lee, B.-J., Chung, S.-W., Yu, H.-J., Evans, N., & Kinnunen, T. (2022). In *Proc. Interspeech 2022*, pages 2893-2897.
+   - Jung, J.-w., Tak, H., Shim, H.-j., Heo, H.-S., Lee, B.-J., Chung, S.-W., Yu, H.-J., Evans, N., & Kinnunen, T. (2022). In *Proc. INTERSPEECH 2022*, pages 2893-2897.
    - https://arxiv.org/pdf/2203.14732
    - [GitHub Repository](https://sasv-challenge.github.io)
      <a name="ref-savs"></a>
