@@ -222,6 +222,7 @@ If you use this repository or the Malacopula model in your research, please cite
 | Bona Fide Enroll Utterance | Spoof Utterance | Malacopula Spoof Utterance |
 |----------------------------|-----------------|----------------------------|
 | <audio controls> <source src="audio/bona_fide_enroll_utterance.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/spoof_utterance.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/malacopula_spoof_utterance.flac" type="audio/flac"> Your browser does not support the audio element. </audio> |
+| <audio controls> <source src="audio/bona_fide_enroll_utterance.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/spoof_utterance.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/malacopula_spoof_utterance.flac" type="audio/flac"> Your browser does not support the audio element. </audio> |
 
 
 ## References
