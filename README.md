@@ -223,9 +223,14 @@ If you use this repository or the Malacopula model in your research, please cite
 
 ## Audio Examples
 
-| Bona Fide ID L0007 | A09 (Spoof) | A13 (Spoof) | A17 (Spoof) |
+## Audio Examples
+
+| Bona Fide ID L0007 | <audio controls> <source src="audio/L0007_bona_fide.flac" type="audio/flac"> Your browser does not support the audio element. </audio> |
+|-------------------|---------------------------------------------------------------------------------------------------|
+
+|                   | A09 (Spoof) | A13 (Spoof) | A17 (Spoof) |
 |-------------------|-------------|-------------|-------------|
-| <audio controls> <source src="audio/L0007_bona_fide.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A09_spoof.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A13_spoof.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A17_spoof.flac" type="audio/flac"> Your browser does not support the audio element. </audio> |
+|                   | <audio controls> <source src="audio/L0007_A09_spoof.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A13_spoof.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A17_spoof.flac" type="audio/flac"> Your browser does not support the audio element. </audio> |
 
 |                   | A09 (Malacopula) | A13 (Malacopula) | A17 (Malacopula) |
 |-------------------|------------------|------------------|------------------|
