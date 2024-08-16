@@ -217,6 +217,27 @@ If you use this repository or the Malacopula model in your research, please cite
 }
 ```
 
+## Audio Examples
+
+### Bona Fide Enroll Utterance
+<audio controls>
+  <source src="path_to_bona_fide_enroll_utterance.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+### Spoof Utterance
+<audio controls>
+  <source src="path_to_spoof_utterance.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+### Malacopula Spoof Utterance
+<audio controls>
+  <source src="path_to_malacopula_spoof_utterance.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+
 ## References
 
 For the speaker verification systems and models mentioned in this repository, please refer to the following sources:
