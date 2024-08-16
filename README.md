@@ -219,17 +219,11 @@ If you use this repository or the Malacopula model in your research, please cite
 
 ## Audio Examples
 
-| Bona Fide Enroll Utterance | Spoof Utterance | Malacopula Spoof Utterance |
-|----------------------------|-----------------|----------------------------|
-| <audio controls> <source src="audio/bona_fide_enroll_utterance.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/spoof_utterance.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/malacopula_spoof_utterance.flac" type="audio/flac"> Your browser does not support the audio element. </audio> |
+## Audio Examples
 
-| Bona Fide Enroll Utterance | Spoof Utterance | Malacopula Spoof Utterance |
-|----------------------------|-----------------|----------------------------|
-| <audio controls> <source src="audio/bona_fide_enroll_utterance2.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/spoof_utterance2.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/malacopula_spoof_utterance2.flac" type="audio/flac"> Your browser does not support the audio element. </audio> |
-
-| Bona Fide Enroll Utterance | Spoof Utterance | Malacopula Spoof Utterance |
-|----------------------------|-----------------|----------------------------|
-| <audio controls> <source src="audio/bona_fide_enroll_utterance3.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/spoof_utterance3.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/malacopula_spoof_utterance3.flac" type="audio/flac"> Your browser does not support the audio element. </audio> |
+| Bona Fide ID L0007 | A09 (Spoof) | A13 (Spoof) | A17 (Spoof) | A09 (Malacopula) | A13 (Malacopula) | A17 (Malacopula) |
+|-------------------|-------------|-------------|-------------|------------------|------------------|------------------|
+| <audio controls> <source src="audio/L0007_bona_fide.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A09_spoof.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A13_spoof.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A17_spoof.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A09_malacopula.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A13_malacopula.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A17_malacopula.flac" type="audio/flac"> Your browser does not support the audio element. </audio> |
 
 
 ## References
