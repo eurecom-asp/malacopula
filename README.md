@@ -219,17 +219,15 @@ If you use this repository or the Malacopula model in your research, please cite
 
 ## Audio Examples
 
-## Audio Examples
-
-| Bona Fide         | ID L0007                                                                                          |
+| BF                | ID L0007                                                                                          |
 |-------------------|---------------------------------------------------------------------------------------------------|
 |                   | <audio controls> <source src="audio/L0007_bona_fide.flac" type="audio/flac"> Your browser does not support the audio element. </audio> |
 
-| Spoof             | A09                                                                                               | A13                                                                                               | A17                                                                                               |
+| SP                | A09                                                                                               | A13                                                                                               | A17                                                                                               |
 |-------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 |                   | <audio controls> <source src="audio/L0007_A09_spoof.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A13_spoof.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A17_spoof.flac" type="audio/flac"> Your browser does not support the audio element. </audio> |
 
-| Malacopula        | A09                                                                                               | A13                                                                                               | A17                                                                                               |
+| MC                | A09                                                                                               | A13                                                                                               | A17                                                                                               |
 |-------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 |                   | <audio controls> <source src="audio/L0007_A09_malacopula.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A13_malacopula.flac" type="audio/flac"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A17_malacopula.flac" type="audio/flac"> Your browser does not support the audio element. </audio> |
 
