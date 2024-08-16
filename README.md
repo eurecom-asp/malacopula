@@ -35,7 +35,7 @@ The dataset used is ASVspoof2019, which can be found [here](https://datashare.ed
 
 `AUDIO_FOLDER`: Path to the folder containing the evaluation `.flac` files `ASVspoof2019/LA/ASVspoof2019_LA_eval/flac`.
 
-'PROTOCOL_A': Path to enrollment protocol `ASVspoof2019.LA.asv.eval.gi.trn.txt`.
+`PROTOCOL_A`: Path to enrollment protocol `ASVspoof2019.LA.asv.eval.gi.trn.txt`.
 
 `PROTOCOL_B`: Path to trial protocol `ASVspoof2019.LA.asv.eval.gi.trl.v1.txt`.
 
