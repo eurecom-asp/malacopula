@@ -221,36 +221,36 @@ If you use this repository or the Malacopula model in your research, please cite
 
 For the speaker verification systems and models mentioned in this repository, please refer to the following sources:
 
-1. **Malacopula**: Adversarial Automatic Speaker Verification Attacks Using a Neural-Based Generalised Hammerstein Model
+1. **Malacopula: Adversarial Automatic Speaker Verification Attacks Using a Neural-Based Generalised Hammerstein Model**
    - Todisco, M., Panariello, M., Wang, X., Delgado, H., Lee, K.-A., & Evans, N. (2024). In *Proc. ASVspoof5 Workshop 2024*.
    - https://arxiv.org/
      <a name="ref-malacopula"></a>
 
-2. **CAM++**: A Fast and Efficient Network for Speaker Verification Using Context-Aware Masking
+2. **CAM++: A Fast and Efficient Network for Speaker Verification Using Context-Aware Masking**
    - Wang, H., Zheng, S., Chen, Y., Cheng, L., & Chen, Q. (2023). In *INTERSPEECH 2023*.
    - https://arxiv.org/pdf/2303.00332
    - [GitHub Repository](https://github.com/modelscope/3D-Speaker/tree/main?tab=readme-ov-file) 
      <a name="ref-campp"></a>
 
-3. **ECAPA-TDNN**: Emphasized Channel Attention, Propagation, and Aggregation in TDNN-based Speaker Verification
+3. **ECAPA-TDNN: Emphasized Channel Attention, Propagation, and Aggregation in TDNN-based Speaker Verification**
    - Desplanques, B., Thienpondt, J., & Demuynck, K. (2020). In *INTERSPEECH 2020*, pages 3830-3834.
    - https://arxiv.org/pdf/2005.07143
    - [GitHub Repository](https://github.com/speechbrain/speechbrain)
      <a name="ref-ecapa"></a>
 
-4. **ERes2NetV2**: Boosting Short-Duration Speaker Verification Performance with Computational Efficiency
+4. **ERes2NetV2: Boosting Short-Duration Speaker Verification Performance with Computational Efficiency**
    - Chen, Y., & others. (2024). *arXiv preprint arXiv:2406.02167*.
    - https://arxiv.org/pdf/2406.02167
    - [GitHub Repository](https://github.com/modelscope/3D-Speaker/tree/main?tab=readme-ov-file)
      <a name="ref-eres2net"></a>
 
-5. **AASIST**: Audio Anti-Spoofing Using Integrated Spectro-Temporal Graph Attention Networks
+5. **AASIST: Audio Anti-Spoofing Using Integrated Spectro-Temporal Graph Attention Networks**
    - Jung, J.-w., Heo, H.-S., Tak, H., Shim, H.-j., Chung, J.S., Lee, B.-J., & Yu, H.-J., Evans, N. (2022). In *Proc. ICASSP 2022*, pages 6367-6371.
    - https://arxiv.org/pdf/2110.01200
    - [GitHub Repository](https://github.com/clovaai/aasist)
      <a name="ref-aasist"></a>
 
-6. **SASV 2022**: The First Spoofing-Aware Speaker Verification Challenge
+6. **SASV 2022: The First Spoofing-Aware Speaker Verification Challenge**
    - Jung, J.-w., Tak, H., Shim, H.-j., Heo, H.-S., Lee, B.-J., Chung, S.-W., Yu, H.-J., Evans, N., & Kinnunen, T. (2022). In *Proc. INTERSPEECH 2022*, pages 2893-2897.
    - https://arxiv.org/pdf/2203.14732
    - [GitHub Repository](https://sasv-challenge.github.io)
