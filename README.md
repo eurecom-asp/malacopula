@@ -7,8 +7,8 @@ Malacopula[[1](#ref-malacopula)] is a neural-based generalised Hammerstein model
 ## Features
 - **Neural-based Generalised Hammerstein Model**: Non-linear learnable transformations applied to speech signals for adversarial perturbations.
 - **Adversarial Optimisation**: Procedure for minimising cosine distance between spoofed and bona fide utterances.
-- **Cross-System Evaluation**: Tested across multiple ASV architectures (CAM++[[2](#ref-campp)], ECAPA[[3](#ref-ecapa)], ERes2Net[[4](#ref-eres2net)]).
-- **Impact Evaluation**: Includes assessments of spoofing and deepfake detection (AASIST[[5](#ref-aasist)]).
+- **AVS Systems Cross Evaluation**: Tested across multiple ASV architectures (CAM++[[2](#ref-campp)], ECAPA[[3](#ref-ecapa)], ERes2Net[[4](#ref-eres2net)]).
+- **Anti-spoofing Assessments**: Includes assessments of spoofing and deepfake detection (AASIST[[5](#ref-aasist)]).
 
 ## Installation
 To set up the environment, you will need to install the dependencies listed in the `environment.yml` file using Conda. Follow the instructions below:
