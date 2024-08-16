@@ -33,7 +33,9 @@ This will set up the environment with all necessary dependencies, including CUDA
 
 The dataset used is ASVspoof2019, which can be found [here](https://datashare.ed.ac.uk/handle/10283/3336). You should download the dataset and place it into a folder of your choice. Afterward, update the configuration file (`conf.ini`) to reflect the correct path.
 
-In the `AUDIO_FOLDER` key, assign the path to the folder containing the evaluation `.flac` files.
+`AUDIO_FOLDER`: Path to the folder containing the evaluation `.flac` files `ASVspoof2019_LA_eval/LA/flac/`.
+'PROTOCOL_A': Path to enrollment protocol `ASVspoof2019.LA.asv.eval.gi.trn.txt`.
+`PROTOCOL_B`: Path to trial protocol `ASVspoof2019.LA.asv.eval.gi.trl.v1.txt`.
 
 ## Malacopula Filter Training and Evaluation
 
