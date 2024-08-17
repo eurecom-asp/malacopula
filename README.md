@@ -219,23 +219,7 @@ If you use this repository or the Malacopula model in your research, please cite
 
 ## Audio Examples
 
-You can listen to all the audio files on our [GitHub Pages site](https://eurecom-asp.github.io/malacopula/). 
-
-This table presents a speech utterance from the bona fide enrollment of speaker `ID L0007`, alongside spoofing attacks `A09`, `A13`, and `A17`. Additionally, it includes the corresponding Malacopula-filtered versions of these attacks, using a filter configuration with `L=257` and `K=5`.
-
-| BF                | L07                                                                                          |
-|-------------------|---------------------------------------------------------------------------------------------------|
-|                   | <audio controls> <source src="audio/L0007_bona_fide.wav" type="audio/wav"> Your browser does not support the audio element. </audio> |
-
-| SP                | A09                                                                                               | A13                                                                                               | A17                                                                                               |
-|-------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-|                   | <audio controls> <source src="audio/L0007_A09_spoof.wav" type="audio/wav"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A13_spoof.wav" type="audio/wav"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A17_spoof.wav" type="audio/wav"> Your browser does not support the audio element. </audio> |
-
-| MC                | A09                                                                                               | A13                                                                                               | A17                                                                                               |
-|-------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-|                   | <audio controls> <source src="audio/L0007_A09_malacopula.wav" type="audio/wav"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A13_malacopula.wav" type="audio/wav"> Your browser does not support the audio element. </audio> | <audio controls> <source src="audio/L0007_A17_malacopula.wav" type="audio/wav"> Your browser does not support the audio element. </audio> |
-
-
+You can listen to some audio files on our [GitHub Pages site](https://eurecom-asp.github.io/malacopula/). 
 
 ## References
 
