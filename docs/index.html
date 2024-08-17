@@ -3,52 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Audio Player</title>
+    <title>Audio Player in Table</title>
+    <style>
+        body {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        h2, p {
+            margin-bottom: 20px;
+        }
+        audio {
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Listen to the Audio Files</h1>
+    <h2>Malacopula Audio Examples</h2>
 
-    <h2>L0007_bona_fide.wav</h2>
-    <audio controls>
-        <source src="audio/L0007_bona_fide.wav" type="audio/wav">
-        Your browser does not support the audio element.
-    </audio>
+    <p>This table presents speech utterances of speaker <code>ID L0007</code> from the bona fide enrollment, alongside spoofing attacks <code>A09</code>, <code>A13</code>, and <code>A17</code> and the corresponding Malacopula-filtered versions of these attacks, using a filter configuration with <code>L=257</code> and <code>K=5</code>.</p>
 
-    <h2>L0007_A09_spoof.wav</h2>
-    <audio controls>
-        <source src="audio/L0007_A09_spoof.wav" type="audio/wav">
-        Your browser does not support the audio element.
-    </audio>
+    <table>
+        <tr>
+            <th>Bona fide Speaker ID L0007</th>
+        </tr>
+        <tr>
+            <td>
+                <audio controls>
+                    <source src="audio/L0007_bona_fide.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+    </table>
 
-    <h2>L0007_A09_malacopula.wav</h2>
-    <audio controls>
-        <source src="audio/L0007_A09_malacopula.wav" type="audio/wav">
-        Your browser does not support the audio element.
-    </audio>
+    <table>
+        <tr>
+            <th>Spoof A09</th>
+            <th>Spoof A13</th>
+            <th>Spoof A17</th>
+        </tr>
+        <tr>
+            <td>
+                <audio controls>
+                    <source src="audio/L0007_A09_spoof.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="audio/L0007_A13_spoof.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="audio/L0007_A17_spoof.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+    </table>
 
-    <h2>L0007_A13_spoof.wav</h2>
-    <audio controls>
-        <source src="audio/L0007_A13_spoof.wav" type="audio/wav">
-        Your browser does not support the audio element.
-    </audio>
+    <table>
+        <tr>
+            <th>Malacopula A09</th>
+            <th>Malacopula A13</th>
+            <th>Malacopula A17</th>
+        </tr>
+        <tr>
+            <td>
+                <audio controls>
+                    <source src="audio/L0007_A09_malacopula.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="audio/L0007_A13_malacopula.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="audio/L0007_A17_malacopula.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+    </table>
 
-    <h2>L0007_A13_malacopula.wav</h2>
-    <audio controls>
-        <source src="audio/L0007_A13_malacopula.wav" type="audio/wav">
-        Your browser does not support the audio element.
-    </audio>
-
-    <h2>L0007_A17_spoof.wav</h2>
-    <audio controls>
-        <source src="audio/L0007_A17_spoof.wav" type="audio/wav">
-        Your browser does not support the audio element.
-    </audio>
-
-    <h2>L0007_A17_malacopula.wav</h2>
-    <audio controls>
-        <source src="audio/L0007_A17_malacopula.wav" type="audio/wav">
-        Your browser does not support the audio element.
-    </audio>
-    
 </body>
 </html>
