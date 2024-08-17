@@ -219,6 +219,8 @@ If you use this repository or the Malacopula model in your research, please cite
 
 ## Audio Examples
 
+You can listen to all the audio files on our [GitHub Pages site](https://github.com/eurecom-asp/malacopula/).
+
 This table presents a speech utterance from the bona fide enrollment of speaker `ID L0007`, alongside spoofing attacks `A09`, `A13`, and `A17`. Additionally, it includes the corresponding Malacopula-filtered versions of these attacks, using a filter configuration with `L=257` and `K=5`.
 
 | BF                | L07                                                                                          |
