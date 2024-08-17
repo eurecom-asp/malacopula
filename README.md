@@ -8,7 +8,7 @@ For more details, the paper is available on [arXiv](https://arxiv.org).
 ## Features
 - **Neural-based Generalised Hammerstein Model**: Non-linear learnable transformations applied to speech signals for adversarial perturbations.
 - **Adversarial Optimisation**: Procedure for minimising cosine distance between spoofed and bona fide utterances.
-- **AVS Systems Cross Evaluation**: Tested across multiple ASV architectures (CAM++ [[2](#ref-campp)], ECAPA [[3](#ref-ecapa)], ERes2Net [[4](#ref-eres2net)]).
+- **AVS Systems Evaluation**: Tested across multiple ASV architectures (CAM++ [[2](#ref-campp)], ECAPA [[3](#ref-ecapa)], ERes2Net [[4](#ref-eres2net)]).
 - **Anti-spoofing Assessments**: Includes assessments of spoofing and deepfake detection (AASIST [[5](#ref-aasist)]).
 
 ## Installation
