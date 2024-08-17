@@ -217,7 +217,7 @@ If you use this repository or the Malacopula model in your research, please cite
 @inproceedings{malacopula2024,
     author={Massimiliano Todisco and Michele Panariello and Xin Wang and Hector Delgado and Kong-Aik Lee and Nicholas Evans},
     title={Malacopula: adversarial automatic speaker verification attacks using a neural-based generalised Hammerstein model},
-    booktitle={Proc. ASVspoof5 Workshop 2024},
+    booktitle={Proc. ASVspoof Workshop 2024},
     year={2024}
 }
 ```
