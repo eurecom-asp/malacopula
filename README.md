@@ -221,6 +221,8 @@ If you use this repository or the Malacopula model in your research, please cite
 
 This table presents a speech utterance from the bona fide enrollment of speaker `ID L0007`, alongside spoofing attacks `A09`, `A13`, and `A17`. Additionally, it includes the corresponding Malacopula-filtered versions of these attacks, using a filter configuration with `L=257` and `K=5`.
 
+[Listen to the audio file](audio/L0007_bona_fide.wav)
+
 | BF                | L07                                                                                          |
 |-------------------|---------------------------------------------------------------------------------------------------|
 |                   | <audio controls> <source src="audio/L0007_bona_fide.wav" type="audio/wav"> Your browser does not support the audio element. </audio> |
