@@ -219,7 +219,7 @@ If you use this repository or the Malacopula model in your research, please cite
 
 ## Audio Examples
 
-You can listen to some audio files on our [GitHub Pages site](https://eurecom-asp.github.io/malacopula/). 
+You can listen to some audio examples from ASVspoof 2019 LA on our [GitHub Pages site](https://eurecom-asp.github.io/malacopula/). 
 
 ## References
 
