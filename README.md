@@ -169,6 +169,10 @@ class Malacopula(nn.Module):
         return norm_output
 ```
 
+## Audio Examples
+
+You can listen to some audio examples from ASVspoof 2019 LA on our [GitHub Pages site](https://eurecom-asp.github.io/malacopula/). 
+
 ## Third-party Troubleshooting
 
 Below are some common issues you might encounter when using this repository.
@@ -216,10 +220,6 @@ If you use this repository or the Malacopula model in your research, please cite
     year={2024}
 }
 ```
-
-## Audio Examples
-
-You can listen to some audio examples from ASVspoof 2019 LA on our [GitHub Pages site](https://eurecom-asp.github.io/malacopula/). 
 
 ## References
 
