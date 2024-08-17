@@ -71,7 +71,7 @@ SCORE_FILE=${OUTPUT_BASE_PATH}ASV2019_eval_scores_${NUM_LAYERS}_${KERNEL_SIZE}.t
 RESULTS_FILE=${OUTPUT_BASE_PATH}ASV2019_eval_summary_${NUM_LAYERS}_${KERNEL_SIZE}.txt # The file summarizing the results in terms of EER.
 ```
 
-### How to Use
+## How to Use
 
 ### Training Malacopula Filter
 Use the `Train.py` script to train the Malacopula filter for a specific attack and speaker ID. The `conf.ini` file is automatically parsed by the script.
@@ -95,14 +95,14 @@ Once the symbolic links have been created, use the `Eval.py` script to evaluate 
 python Eval.py
 ```
 
-## Important Parameters in `conf.ini`
+### Important Parameters in `conf.ini`
 
 - **TARGET_CATEGORY**: Specifies the attack type, e.g., `A17`. Leave it empty to process all attacks.
 - **TARGET_SPEAKER**: Specifies the speaker ID, e.g., `LA_0001`. Leave it empty to process all speakers.
 - **OUTPUT_BASE_PATH**: Path where the best model, processed speech, and filter coefficients will be saved.
 - **f_A**: The embedding extractor used for training (e.g., `ecapa` or `campp`). `f_B` will be automatically set to the other extractor.
 
-## Evaluation-Specific Parameters
+### Evaluation-Specific Parameters
 
 - **AUDIO_FOLDER_MALAC**: The folder where Malacopula-processed utterances are saved.
 - **SCORE_FILE**: File containing the scores for evaluation, including speaker ID, attack type, and scores from multiple systems (ECAPA, CAM++, ERes2Net, AASIST).
