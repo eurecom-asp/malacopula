@@ -2,13 +2,13 @@
 
 ## Description
 
-Malacopula[[1](#ref-malacopula)] is a neural-based generalised Hammerstein model designed to enhance the effectiveness of spoofing attacks on Automatic Speaker Verification (ASV) systems. By introducing adversarial perturbations to spoofed speech utterances, Malacopula increases the vulnerability of ASV systems. This repository contains the implementation of the model, including the filter architecture and adversarial optimisation procedures.
+Malacopula [[1](#ref-malacopula)] is a neural-based generalised Hammerstein model designed to enhance the effectiveness of spoofing attacks on Automatic Speaker Verification (ASV) systems. By introducing adversarial perturbations to spoofed speech utterances, Malacopula increases the vulnerability of ASV systems. This repository contains the implementation of the model, including the filter architecture and adversarial optimisation procedures.
 
 ## Features
 - **Neural-based Generalised Hammerstein Model**: Non-linear learnable transformations applied to speech signals for adversarial perturbations.
 - **Adversarial Optimisation**: Procedure for minimising cosine distance between spoofed and bona fide utterances.
-- **AVS Systems Cross Evaluation**: Tested across multiple ASV architectures (CAM++[[2](#ref-campp)], ECAPA[[3](#ref-ecapa)], ERes2Net[[4](#ref-eres2net)]).
-- **Anti-spoofing Assessments**: Includes assessments of spoofing and deepfake detection (AASIST[[5](#ref-aasist)]).
+- **AVS Systems Cross Evaluation**: Tested across multiple ASV architectures (CAM++ [[2](#ref-campp)], ECAPA [[3](#ref-ecapa)], ERes2Net [[4](#ref-eres2net)]).
+- **Anti-spoofing Assessments**: Includes assessments of spoofing and deepfake detection (AASIST [[5](#ref-aasist)]).
 
 ## Installation
 To set up the environment, you will need to install the dependencies listed in the `environment.yml` file using Conda. Follow the instructions below:
