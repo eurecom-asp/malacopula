@@ -2,7 +2,7 @@
 
 ## Description
 
-Malacopula [[1](#ref-malacopula)] is a neural-based generalised Hammerstein model designed to enhance the effectiveness of spoofing attacks on Automatic Speaker Verification (ASV) systems. By introducing adversarial perturbations to spoofed speech utterances, Malacopula increases the vulnerability of ASV systems. The repository includes a complete implementation of the model, covering the filter architecture, adversarial optimisation procedures, and evaluation of ASV systems alongside antispoofing countermeasures, as detailed in the corresponding paper, available on [arXiv](https://arxiv.org).
+Malacopula [[1](#ref-malacopula)] is a neural-based generalised Hammerstein model designed to enhance the effectiveness of spoofing attacks on Automatic Speaker Verification (ASV) systems. By introducing adversarial perturbations to spoofed speech utterances, Malacopula increases the vulnerability of ASV systems. The repository includes a complete implementation of the model, covering the filter architecture, adversarial optimisation procedures, and evaluation of ASV systems alongside antispoofing countermeasures, as detailed in the corresponding paper, available on [arXiv](https://arxiv.org/abs/2408.09300).
 
 ## Features
 - **Neural-based Generalised Hammerstein Model**: Non-linear learnable transformations applied to speech signals for adversarial perturbations.
@@ -227,7 +227,7 @@ For the speaker verification systems and models mentioned in this repository, pl
 
 1. **Malacopula: Adversarial Automatic Speaker Verification Attacks Using a Neural-Based Generalised Hammerstein Model**
    - Todisco, M., Panariello, M., Wang, X., Delgado, H., Lee, K.-A., & Evans, N. (2024). In *Proc. ASVspoof5 Workshop 2024*.
-   - https://arxiv.org/
+   - https://arxiv.org/abs/2408.09300
      <a name="ref-malacopula"></a>
 
 2. **CAM++: A Fast and Efficient Network for Speaker Verification Using Context-Aware Masking**
