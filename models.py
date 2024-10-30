@@ -46,6 +46,7 @@ class Malacopula(nn.Module):
 
     def forward(self, x):
         outputs = []
+        self.apply_bartlett_window()
         for i, conv in enumerate(self.convs, start=1):
             powered_x = torch.pow(x, i)
             output = conv(powered_x)
