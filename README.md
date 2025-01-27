@@ -264,3 +264,6 @@ For the speaker verification systems and models mentioned in this repository, pl
 
 These references provide additional context for the models and methods used in this repository.
 
+## Acknowledgements
+This work is supported with funding received from the French Agence Nationale de la Recherche (ANR) via the BRUEL (ANR-22-CE39-0009) and COMPROMIS (ANR-22-PECY0011) projects.
+
